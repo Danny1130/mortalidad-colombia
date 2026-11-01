@@ -1,0 +1,17 @@
+# Dependencias de la aplicación web:
+
+# Framework de la aplicación interactiva
+dash==4.4.1
+
+# Gráficos
+plotly==7.1.0
+
+# Manipulación de datos y lectura de los archivos .xlsx
+pandas==3.0.2
+openpyxl==3.1.5
+
+# Servidor de producción (PaaS: Render, Railway, Heroku)
+gunicorn==26.2.0
+
+# Descarga de las fuentes del DANE (solo para scripts/preparar_datos.py)
+requests==2.34.2

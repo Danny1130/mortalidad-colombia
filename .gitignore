@@ -1,0 +1,13 @@
+# Datos crudos descargados del DANE (se regeneran con scripts/preparar_datos.py)
+data/raw/
+
+# Entornos y caché
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.DS_Store
+
+# Deploy
+.render/
