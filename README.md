@@ -209,7 +209,7 @@ mientras se cargan y cruzan los 244.355 registros.
 El repositorio incluye `render.yaml`, por lo que el despliegue puede hacerse en un solo clic
 (Blueprint) o de forma manual.
 
-### Opción A — Render Blueprint
+### Render Blueprint
 
 1. Iniciar sesión en [dashboard.render.com](https://dashboard.render.com) y conectar la cuenta de
    GitHub.
@@ -219,18 +219,6 @@ El repositorio incluye `render.yaml`, por lo que el despliegue puede hacerse en 
    `https://mortalidad-colombia-2019.onrender.com` (el dominio exacto lo genera Render).
 5. El primer arranque puede tardar 2–4 minutos (descarga de dependencias y carga de los datos);
    las visitas siguientes responden en pocos segundos.
-
-### Opción B — Render manual (web service)
-
-1. **New → Web Service** → conectar el repositorio.
-2. Configuración:
-   * *Runtime*: Python
-   * *Build Command*: `pip install -r requirements.txt`
-   * *Start Command*: `gunicorn app:server -b 0.0.0.0:$PORT --timeout 120 --workers 1 --threads 4`
-   * *Instance Type*: Free (0,5 GB de RAM) — el microdato en CSV ocupa ~150 MB en memoria.
-3. **Create Web Service** y esperar el despliegue.
-
-> El objeto `server = app.server` de `app.py` es el que permite que Gunicorn sirva la aplicación.
 
 ---
 
