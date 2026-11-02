@@ -448,8 +448,8 @@ R o Python.
 | Elemento | Valor |
 |---|---|
 | **Integrantes del grupo** | Danny Fernando López Bernal |
-| **Aplicación desplegada (PaaS)** | _pendiente_ — en Render: `https://mortalidad-colombia-2019.onrender.com` |
-| **Repositorio de GitHub** | _pendiente_ — `https://github.com/<usuario>/mortalidad-colombia` |
+| **Aplicación desplegada (PaaS)** | Render: `https://mortalidad-colombia-2019-7h4j.onrender.com/` |
+| **Repositorio de GitHub** | `https://github.com/Danny1130/mortalidad-colombia` |
 | **Datos de origen** | https://microdatos.dane.gov.co/index.php/catalog/696 |
 
 ---
